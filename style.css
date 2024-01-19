@@ -1,0 +1,95 @@
+html {
+    font-family: Arial;
+    background-color: #0D1117;
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+
+.padding {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+a:link, a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    background-color: 190, 190, 190;
+    color: grey;
+}
+
+button {
+    outline: none;
+}
+
+summary {
+    outline: none;
+}
+
+.btnnav {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.nav {
+    background-color: #21262d;
+    padding: 0.8rem;
+    padding-left: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sidebar {
+    background-color: #21262d;
+    padding: 10px;
+    display: none;
+    position: fixed;
+    width: 100%;
+}
+
+.sidebar button {
+    padding: 5px;
+    padding-right: 10px;
+}
+
+.navph {
+    background-color: #21262d;
+    padding: 0.8rem;
+    padding-left: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+a:hover {
+    color: grey;
+}
+
+.padding a:link {
+    text-decoration: underline;
+}  
+
+@media screen and (max-width: 1080px) {
+  .nav {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1081px) {
+  .navph {
+    display: none;
+  }
+}
