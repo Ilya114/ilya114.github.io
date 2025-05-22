@@ -2,6 +2,7 @@ html {
     font-family: Calibri;
     background-color: #0D1117;
     color: white;
+    font-size: 18px;
 }
 
 body {
@@ -14,11 +15,6 @@ body {
     padding-top: 3rem;
     padding-bottom: 1rem;
 }
-
-.padding a:link {
-    text-decoration: underline;
-}  
-
 
 a:link, a:visited {
     color: white;
@@ -75,6 +71,10 @@ a:hover {
     color: grey;
 }
 
+.padding a:link {
+    text-decoration: underline;
+}  
+
 @media screen and (max-width: 1080px) {
   .nav {
     display: none;
@@ -86,3 +86,4 @@ a:hover {
     display: none;
   }
 }
+
